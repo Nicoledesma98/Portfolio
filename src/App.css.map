@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACOA,mBAAmB;ACPnB,AAAA,KAAK,CAAC;EACF,gBAAgB,EDEX,OAAoB;CCD5B",
     "sources": [
-        "App.scss"
+        "App.scss",
+        "components/Variables/_Variables.scss",
+        "components/NavBar/_NavBar.scss",
+        "pages/Home/_Home.scss",
+        "components/Footer/_Footer.scss"
     ],
     "names": [],
     "file": "App.css"
