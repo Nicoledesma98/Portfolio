@@ -1,0 +1,16 @@
+.footer {
+    background-color: $color1;
+}
+.icon {
+    width: 48;
+    right: 48;
+}
+
+.spacingg {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
