@@ -53,6 +53,21 @@
   background-color: #353535;
 }
 
+.gif {
+  margin-left: 100px;
+  width: 10;
+  height: 30vmin;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.tittle {
+  background-color: #3c6e71;
+  text-align: center;
+}
+
 .footer {
   background-color: #3c6e71;
 }
@@ -63,6 +78,7 @@
 }
 
 .spacingg {
+  margin-top: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
