@@ -27,18 +27,13 @@
     height: 50vh;
 
 }
-.windows {
-    left: 110vh;
-    top: 30vh;
-    width: 60vh;
-    height: 25vh;
-}
+
 .texting {
     color: $color2;
     
 }
 
-.test{
+.window{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -50,6 +45,9 @@
     border-radius: 15px;
     color: $color1;
     background-color: $color2;
+    -webkit-box-shadow: -13px 10px 21px 0px rgba(0,0,0,0.79);
+-moz-box-shadow: -13px 10px 21px 0px rgba(0,0,0,0.79);
+box-shadow: -13px 10px 21px 0px rgba(0,0,0,0.79);
 }
 
 .focus{
@@ -65,4 +63,21 @@
 .title {
     text-align: center;
     color: $color1;
+}
+
+.imgnico{
+    width: 50vh;
+    height: 35vh;
+    border:solid transparent;
+    border-radius: 200px 200px 200px 200px;
+    margin-right: 50px;
+
+}
+.conthome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
