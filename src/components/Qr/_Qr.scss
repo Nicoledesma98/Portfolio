@@ -1,0 +1,12 @@
+.imgqr {
+    width: 45vh;
+    height: 45vh;
+}
+.backqr {
+    background-color: $color1;
+}
+
+.qrblur {
+    backdrop-filter: blur(10px);
+    
+}
