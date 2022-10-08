@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Skills from '../components/Skills/Skills';
 import Project from '../components/Project/Project';
+import Contact from '../components/Contact/Contact';
 const Home = () => {
   return (
     <>
@@ -35,6 +36,7 @@ const Home = () => {
       <Container fluid>
         <Skills />
         <Project/>
+        <Contact/>
       </Container>
     </>
 

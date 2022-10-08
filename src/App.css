@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /* SCSS HEX */
 /* SCSS Gradient */
 .back {
@@ -204,7 +211,132 @@
 .tittlesproject {
   text-align: center;
   color: #ECF1F1ff;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.cardpr {
+  margin-right: 10px;
+  color: white;
+  border-color: #003140ff !important;
+}
+
+.itemcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #003140ff;
+}
+
+.buttoncard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #003140ff !important;
+}
+
+.btncard {
+  border: solid 1px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: white;
+  padding: 0.1em 1.3em;
+  margin-right: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(45deg, #003140 0 50%, white 50%);
+  background-position: 25%;
+  background-size: 400%;
+  -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+  transition: background 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+.btncard:hover {
+  color: #003140ff;
+  background-position: 100%;
+}
+
+.titlecontact {
+  text-align: center;
+  color: #003140ff;
+}
+
+.btncontact {
+  border: solid 1px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: white;
+  padding: 0.1em 1.3em;
+  margin: 1vh;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ECF1F1ff;
+  font-size: 20px;
+  background-image: linear-gradient(45deg, #003140 0 50%, white 50%);
+  background-position: 25%;
+  background-size: 400%;
+  -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+  transition: background 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+.btncontact:hover {
+  color: #003140ff;
+  background-position: 100%;
+}
+
+.tittlecontact {
+  text-align: center;
+  color: #003140ff;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.flexd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Home {
@@ -347,6 +479,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.testtingt {
+  width: 100vh;
 }
 
 .footer {
