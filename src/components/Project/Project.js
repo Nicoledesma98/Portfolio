@@ -54,7 +54,7 @@ const Project = () => {
         </Card.Body>
         <Card.Footer className='buttoncard'>
           <a href='https://github.com/Nicoledesma98/pet-ecommerce' className='btncard'>GitHub</a>
-          <a href='https://github.com/Nicoledesma98/pet-ecommerce' className='btncard'>Demo</a>
+          <a href='https://pet-ecommerce-ochre.vercel.app/' className='btncard'>Demo</a>
         </Card.Footer>
       </Card>
     </CardGroup>
