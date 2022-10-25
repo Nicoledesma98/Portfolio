@@ -7,7 +7,7 @@ const Skills = () => {
     <Container fluid className='skills'>
       <Row>
         <Col>
-          <h2 className='tittleskills'>Skills</h2>
+          <h2 className='tittleskills'>Habilidades</h2>
         </Col>
       </Row>
       <Row>

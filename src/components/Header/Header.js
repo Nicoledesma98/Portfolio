@@ -40,9 +40,9 @@ function Header() {
             </Modal.Body>
             <Modal.Footer>
                <button className='button1' onClick={handleClose}>
-                Close
+                Cerrar
               </button>
-            <a href={"../cvnico.pdf"} download={"../cvnico.pdf"} ><button type='submit' className='button2'>Download</button></a>
+            <a href={"../cvnico.pdf"} download={"../cvnico.pdf"} ><button type='submit' className='button2'>Descargar</button></a>
               <Qr/>
             </Modal.Footer>
           </Modal>

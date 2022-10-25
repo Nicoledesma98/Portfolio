@@ -10,7 +10,7 @@ const Project = () => {
     <Container fluid className='project'>
       <Row>
         <Col className='tittlesproject'>
-        <h2>Project</h2>
+        <h2>Proyectos</h2>
         </Col>
       </Row>
       <Row>
@@ -21,7 +21,7 @@ const Project = () => {
         <Card.Body className='itemcard'>
           <Card.Title>Por Los Pelos</Card.Title>
           <Card.Text>
-          This is the final project of the Web Development course, using HTML5, CSS3 and SASS. The project consists of a website for a gentlemen's hairdresser.
+          Este es el proyecto final del curso de Desarrollo Web, utilizando HTML5, CSS3 y SASS. El proyecto consiste en una web para una peluquería de caballeros.
           </Card.Text>
         </Card.Body>
         <Card.Footer className='buttoncard'>
@@ -34,7 +34,7 @@ const Project = () => {
         <Card.Body className='itemcard'>
           <Card.Title>BlackPrime</Card.Title>
           <Card.Text>
-          This is a project made with Javascript, html and css, as a final challenge of CoderHouse Javascript course.the project consists of a web page of loans.
+          Este es un proyecto realizado con Javascript, HTML y CSS, como reto final del curso Javascript de CoderHouse. El proyecto consiste en una página web de préstamos.
           </Card.Text>
         </Card.Body>
         <Card.Footer className='buttoncard'>
@@ -47,9 +47,7 @@ const Project = () => {
         <Card.Body className='itemcard'>
           <Card.Title>Pet Society</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+            Este es un proyecto realizado con ReactJs,HTML y CSS. Conectandolo a FireBase. Dicho proyecto consiste en una e-commerce de venta de productos de mascotas. 
           </Card.Text>
         </Card.Body>
         <Card.Footer className='buttoncard'>

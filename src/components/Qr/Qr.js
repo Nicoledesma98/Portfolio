@@ -9,7 +9,7 @@ function Qr() {
   return (
     <>
     <button className='button2 buttonqr'  onClick={handleShow}>
-      View QR
+      Ver QR
       </button>
       <Modal show={show} onHide={handleClose} className="qrblur">
         <Modal.Body className='backqr'>
@@ -17,7 +17,7 @@ function Qr() {
         </Modal.Body>
         <Modal.Footer>
           <button className='button1' onClick={handleClose}>
-            Close
+            Cerrar
           </button>
         </Modal.Footer>
       </Modal>

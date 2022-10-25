@@ -313,8 +313,7 @@
   background-position: 100%;
 }
 
-.titlecontact {
-  text-align: center;
+.formtext {
   color: #003140ff;
 }
 
@@ -406,6 +405,7 @@
 
 .texting {
   color: #ECF1F1ff;
+  text-align: center;
 }
 
 .window {
