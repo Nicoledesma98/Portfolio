@@ -8,7 +8,7 @@ function Qr() {
 
   return (
     <>
-    <button className='button2'  onClick={handleShow}>
+    <button className='button2 buttonqr'  onClick={handleShow}>
       View QR
       </button>
       <Modal show={show} onHide={handleClose} className="qrblur">

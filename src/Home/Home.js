@@ -2,12 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
-import Skills from '../components/Skills/Skills';
-import Project from '../components/Project/Project';
-import Contact from '../components/Contact/Contact';
 const Home = () => {
   return (
-    <>
       <Container fluid className='Home '>
         <Row>
           <Col>
@@ -19,26 +15,22 @@ const Home = () => {
             <Col>
               <img src='../gifprogram.gif' className='gif' alt=''></img>
             </Col>
-            <Col className='border focus'>
-              <h1>Developer Front-End</h1>
+            <Col>
+              <h1 className='border focus'>Developer Front-End</h1>
             </Col>
           </Row>
-          <Row>
-            <Col className='conthome'>
+          <Row className='conthome'>
+            <Col >
               <img src='../nicoimg.jpeg' alt='image nico' className='imgnico' />
-              <h5 className='border focus'><img src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/000000/external-Hi-foreign-language-smashingstocks-detailed-outline-smashing-stocks.png" alt='' />
+              </Col>
+              <Col>
+              <h5 className='border focus texto'><img className='icons' src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/000000/external-Hi-foreign-language-smashingstocks-detailed-outline-smashing-stocks.png" alt='' />
                 I'm Nico and a few months ago I entered the world of web development and I love it. I graduated from Front-end at CoderHouse, I passed (Web Development (Html,Css,Sass,Bootstrap,Git,GitHub), Javascript and React) I have serious intentions of continuing to venture into this world of programming and continue training professionally.
                 I would be delighted to have my first opportunity as a Jr or Trainee since it is something that I am very passionate about</h5>
             </Col>
           </Row>
         </Container>
       </Container>
-      <Container fluid>
-        <Skills />
-        <Project/>
-        <Contact/>
-      </Container>
-    </>
 
   );
 }

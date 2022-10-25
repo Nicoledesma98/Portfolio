@@ -10,3 +10,10 @@
     backdrop-filter: blur(10px);
     
 }
+
+
+.buttonqr {
+    @media  screen and (max-width:767px) {
+       display: none;
+    }
+}

@@ -15,7 +15,6 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 10vh;
-    
 }
 
 .borderlist {
@@ -32,6 +31,10 @@
     -webkit-box-shadow: -13px 10px 21px 0px rgba(0,0,0,0.79);
 -moz-box-shadow: -13px 10px 21px 0px rgba(0,0,0,0.79);
 box-shadow: -13px 10px 21px 0px rgba(0,0,0,0.79);
+@media  screen and (max-width:767px) {
+        padding: 0.7em;
+        margin: 0.7em;
+    }
 }
 
 
