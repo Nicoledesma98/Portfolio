@@ -593,6 +593,10 @@
           align-items: center;
 }
 
+.letra {
+  color: #ECF1F1ff;
+}
+
 .imgqr {
   width: 45vh;
   height: 45vh;
