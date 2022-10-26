@@ -15,7 +15,7 @@ function Header() {
     <Container fluid className='back'>
       <Row>
         <Col sm={12}>
-          <button className='font me-4 bn322' onClick={handleShow} >
+          <button className='font me-4 bn322 shadow-inset-center' onClick={handleShow} >
             <img src="https://img.icons8.com/ios-filled/30/000000/google-code.png" alt='' />
             Nicolas Ledesma </button>
         </Col>

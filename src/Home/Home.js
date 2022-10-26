@@ -7,7 +7,7 @@ const Home = () => {
       <Container fluid className='Home '>
         <Row>
           <Col>
-            <h2 className='title'>Inicio</h2>
+            <h2 className='title font'>Inicio</h2>
           </Col>
         </Row>
         <Container>
