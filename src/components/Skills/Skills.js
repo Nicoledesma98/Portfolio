@@ -12,7 +12,7 @@ const Skills = () => {
       </Row>
       <Row>
         <Col>
-          <ul className='borderlist'>
+          <ul className='borderlist shadowskill'>
             <li className='roll-in-blurred-right iconflex'><img className='' src='../html.png'alt='icon html'/><h6>HTML 5</h6></li>
             <li className='roll-in-blurred-right iconflex'><img className='' src='../css.png' alt='icon css'/><h6>CSS 3</h6></li>
             <li className='roll-in-blurred-right iconflex'><img className='' src='../sass.png' alt='icon sass'/><h6>Sass</h6></li>
