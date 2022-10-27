@@ -33,7 +33,7 @@ function Header() {
               <Container>
                 <Row>
                   <Col xs={6} md={2}>
-                    <img src='../cvnicoimg.png' alt='curriculum' className='imagecv' />
+                    <img src='../cvnicoimg.jpg' alt='curriculum' className='imagecv' />
                   </Col>
                 </Row>
               </Container>
