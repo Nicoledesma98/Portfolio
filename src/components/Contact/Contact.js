@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { addDoc, collection } from 'firebase/firestore';
 import { async } from '@firebase/util';
 import db from '../../utils/firebaseConfig';
+import Swal from "sweetalert2"
 const Contact = () => {
 
 const [formValue, setFormValue] = useState({
@@ -23,6 +24,11 @@ const handleSubmit = (e) => {
   e.preventDefault()
   setConsulta({...consulta, mensaje: formValue})
   saveData({...consulta, mensaje: formValue})
+  Swal.fire(
+    'Mensaje enviado',
+    'En breve le respondere,Gracias',
+    'success'
+  )
 }
 
 const handleChange = (e) => {
@@ -33,6 +39,7 @@ const saveData = async (newConsult) => {
   const msjFirebase = collection(db, "mensajes")
   const msjDoc = await addDoc(msjFirebase,newConsult)
   console.log("mensaje nuevo ",msjDoc )
+
 
 }
   return (
@@ -96,7 +103,10 @@ const saveData = async (newConsult) => {
         </Row>
         <Row>
           <Col className='flexd'>
-           <button className='btncontact' type="submit">
+           <button
+           className='btncontact'
+           type="submit"
+           >
           Enviar
         </button>
           </Col>
