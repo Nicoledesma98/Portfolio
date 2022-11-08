@@ -201,6 +201,7 @@
   text-align: center;
   color: #003140ff;
   margin-bottom: 10vh;
+  margin-top: 5vh;
 }
 
 .list {
@@ -441,6 +442,28 @@
   background-position: 100%;
 }
 
+.pbtn {
+  border: solid 1px;
+  border-radius: 20px 20px 20px 20px;
+  border-color: white;
+  padding: 0.1em 2.1em;
+  margin-right: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(45deg, #003140 0 50%, white 50%);
+  background-position: 25%;
+  background-size: 400%;
+  -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+  transition: background 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+.pbtn:hover {
+  color: #003140ff;
+  background-position: 100%;
+}
+
 .formtext {
   color: #003140ff;
 }
@@ -627,6 +650,7 @@
   border: solid transparent;
   border-radius: 200px 200px 200px 200px;
   margin-right: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {
@@ -735,6 +759,7 @@
 
 .letra {
   color: #ECF1F1ff;
+  margin-top: 2vh;
 }
 
 .imgqr {

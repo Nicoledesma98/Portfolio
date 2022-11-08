@@ -94,7 +94,7 @@ const saveData = async (newConsult) => {
               onChange={handleChange}
               as="textarea"
               name="mensaje"
-              placeholder='Deje su mensaje aqui'
+              placeholder='Deje su mensaje aquí...'
               rows={3}
               value={formValue.mensaje}
               />
