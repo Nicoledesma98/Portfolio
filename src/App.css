@@ -648,7 +648,6 @@
   width: 50vh;
   height: 35vh;
   border: solid transparent;
-  border-radius: 200px 200px 200px 200px;
   margin-right: 50px;
   margin-bottom: 30px;
 }
@@ -658,7 +657,7 @@
     margin-right: 40px;
     width: 40vh;
     height: 25vh;
-    border-radius: 10px 10px 10px 10px;
+    
   }
 }
 
